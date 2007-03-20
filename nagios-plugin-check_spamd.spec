@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Nagios plugin to check SpamAssassin spamd
-Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania spamd ze SpamAssassina
+Summary(pl):	Wtyczka Nagiosa do sprawdzania spamd ze SpamAssassina
 Name:		nagios-plugin-check_spamd
 Version:	1.1
 Release:	0.6
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 check_spamd is a Nagios plugin for checking SpamAssassin's spamd.
 
-%description -l pl.UTF-8
+%description -l pl
 check_spamd to wtyczka Nagiosa do sprawdzania spamd ze SpamAssassina.
 
 %prep
